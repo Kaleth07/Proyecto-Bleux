@@ -1,0 +1,402 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+nav{
+    display: flex;
+    background-color: #1e172f;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container1 {
+    padding: 12px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 15px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    height: 40px;
+}
+
+.boton1{
+    background: linear-gradient(to right, #8441d5, #3498db);
+    border: none;
+    padding: 6px 15px;
+    font-size: 10px;
+    border-radius: 2px;
+    color: white;
+}
+
+.container2{
+    display: flex;
+    height: 75vh;
+}
+
+.parteizquierda{
+    background-color: #2e2550;
+    padding: 100px;
+    width: 50%;
+}
+
+.parteizquierda h1{
+    color: white;
+    font-size: 70px;
+    width: 20px;
+    margin-bottom: 20px;
+
+}
+
+.parteizquierda p{
+    color: white;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.partederecha{
+    background: url(../assets/hojasFondo.jpg);
+    background-size: cover;
+    width: 50%;
+    padding: 0% 8% 12%;
+}
+
+.partederecha img{
+    height: 400px;
+    margin-top: 90px;
+}
+
+.botones{
+    width: 250px;
+    display: flex;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 10px 8px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+.boton2{
+    background-color: white;
+    color: #e91e63;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 8px 20px;
+}
+
+.boton3{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.contenido1{
+    display: flex;
+    margin-left: 435px;
+}
+
+.container3 h1{
+    color: #e91e63;
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.contenido1 img{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    
+}
+
+.contenido1 h2{
+    margin: 20px 60px;
+    color: #c76497;
+    font-size: 30px;
+}
+
+.contenido1 p{
+    margin: 10px 60px;
+    font-size: 12px;
+    width: 250px;
+}
+
+.contenido1 h3{
+     color: #e91e63;
+     margin: 10px 60px;
+     font-size: 16px;
+}
+
+.contenido1 li{
+    margin: 0px 60px;
+    list-style: none;
+    font-size: 12px;
+}
+
+.container4 {
+    background-color: #1e172f;
+    margin-top: 15px;
+}
+
+.ttl{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.ctnd{
+    width: 580px;
+    text-align: center;
+    color: rgb(223, 222, 222);
+    padding: 0px 480px 15px;
+    font-size: 12px ;
+    font-size: 15px;
+}
+
+
+.container5 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e172f;
+    padding: 40px 360px 35px;
+}
+
+
+                                  /* informacion tajeta numero 1*/
+
+.primeratarjeta{
+    background-color: white;
+    width: 250px;
+    border-radius: 3px;
+}
+
+.imagenh{
+    text-align: center;
+    height: 40px;
+}
+
+.titulo1{
+    text-align: center;
+    color: #e91e63;
+    margin-bottom: 10px;
+}
+
+.precio1{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: #f5f5f5;
+    padding: 14px 0px  14px 0px;
+}
+
+.preciop{
+    font-size: 30px
+}
+
+.li1{
+    margin-top: 15px;
+    font-size: 12px;
+    list-style: none;
+    padding: 0px 0px 10px 15px;
+}
+
+.p2{
+    margin-left: 40px;
+}
+
+.letra{
+    text-align: center;
+    width: 60%;
+    padding: 10px 0px 20px 55px;
+    font-size: 12px;
+}
+
+.boton4{
+    text-align: center;
+    background: #f5f5f5;
+    padding: 10px;
+}
+
+.boton4 button{
+    border-radius: 5%;
+    padding: 10px 19px;
+    background: linear-gradient(to right, #f577bc, #e22d78); 
+    color: white;
+    border: none;
+    
+}
+
+
+.segundatarjeta{
+    background-color: white;
+    width: 250px;
+    border-radius: 3px;
+}
+
+.imagenj{
+    text-align: center;
+    height: 40px;
+}
+
+.titulo2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.precio2 {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: #f5f5f5;
+    padding: 14px 0px  14px 0px;
+}
+
+.precioh{
+    font-size: 30px
+}
+
+.li2{
+    margin-top: 15px;
+    font-size: 12px;
+    list-style: none;
+    padding: 0px 0px 10px 15px;
+}
+
+.p3{
+    margin-left: 40px;
+}
+
+.letra1{
+    text-align: center;
+    width: 60%;
+    padding: 10px 0px 20px 55px;
+    font-size: 12px;
+}
+
+.boton5 button{
+    background-color: #2e2550;
+    color: white;
+    border-radius: 5%;
+    padding: 10px 19px;
+    border: none;
+}
+
+.boton5{
+    padding: 10px;
+    text-align: center;
+    background: #f5f5f5;   
+}
+
+
+
+.terceratarjeta{
+    background-color: white;
+    width: 250px;
+    border-radius: 3px;
+}
+
+.imagenr{
+    text-align: center;
+    height: 40px;
+}
+
+.titulo3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.precio3 {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: #f5f5f5;
+    padding: 14px 0px  14px 0px;
+}
+
+.preciok{
+    font-size: 30px
+}
+
+.li3{
+    margin-top: 15px;
+    font-size: 12px;
+    list-style: none;
+    padding: 0px 0px 10px 15px;
+}
+
+.p4{
+    margin-left: 40px;
+}
+
+.letra2{
+    text-align: center;
+    width: 60%;
+    padding: 10px 0px 20px 55px;
+    font-size: 12px;
+}
+
+.boton6 button{
+    background-color: #2e2550;
+    color: white;
+    border-radius: 5%;
+    padding: 10px 19px;
+    border: none;
+}
+
+.boton6{
+    padding: 10px;
+    text-align: center;
+    background: #f5f5f5;   
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0px;
+    
+}
+
+.cop{
+    color: #e91e63;
+}
+
+.imgs{
+    height: 50px;
+}
+
+.img1{
+    height: 15px;
+}
+
+.img2{
+    height: 15px;
+}
+
+.img3{
+    height: 15px;
+}
+
+.img4{
+    height: 15px;
+}
