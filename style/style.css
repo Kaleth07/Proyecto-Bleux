@@ -67,7 +67,7 @@ img{
 }
 
 .partederecha{
-    background: url(../assets/hojasFondo.jpg);
+    background: url(assets/hojasFondo.jpg);
     background-size: cover;
     width: 50%;
     padding: 0% 8% 12%;
